@@ -8,6 +8,7 @@ navbar {
   background: #05384D;
   display: flex;
   justify-content: space-between;
+  
 
   
 }
@@ -118,6 +119,11 @@ footer {
   height: 10px;
   width: 500px;
   text-align: center;
+}
+
+#boasvindas{
+  padding: 300px;
+  width: 750px;
 }
 
 
