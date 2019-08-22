@@ -37,7 +37,9 @@
                 <script> 
 
                     function dataHora(){
-                      document.getElementById('getDate').value = Date().toString()
+                      var id = document.getElementById('getDate');
+                      var d = Date();
+                      id.value = d.toString()
                     }
                     dataHora()                     
                   </script> 
