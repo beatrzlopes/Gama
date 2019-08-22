@@ -53,6 +53,7 @@ navbar>.menu li>a {
   padding: 30px;
 }
 
+
 .header>.content>button {
   background: #E5E5E5;
   padding: 10px 20px;
@@ -97,4 +98,10 @@ footer {
   background: #05384D;
   color: white;
   text-align: center;
+}
+
+
+#form{
+  color: black;
+  align-content: center;
 }
