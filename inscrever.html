@@ -35,15 +35,18 @@
                 <br>
                
                 <script> 
-  
-                    var id = document.getElementById('getDate');
-                    var d = Date(); 
-                    a = d.toString()  
-                    document.write = a;
-                         
+
+                    function dataHora(){
+                      var id = document.getElementById('getDate');
+                      var d = Date();
+                      id.value = d.toString()
+                    }
+                    dataHora()
+                            
                   </script> 
+                  
                
-               <input type="hidden" name="data_hora" id="getDate">       
+               <input type="hidden" name="data_hora" id="getDate" value=dataHora()>       
                
                
                 
