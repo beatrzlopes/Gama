@@ -33,7 +33,7 @@
                 <input type="radio" name="tipoCliente" value="b2c" checked> Para meu desenvolvimento pessoal <br>
                 <input type="radio" name="tipoCliente" value="b2b"> Para agregar valor na minha empresa 
                 <br>
-                <input type="hidden" name="dataCliente" valeu="dataH" >
+                <input type="hidden" name="dataCliente" valeu="dataH" id="getDate">
                 <script> 
   
                     // Using Date() function 
@@ -44,10 +44,10 @@
                       
                     // Printing the current date document.write("The current date is: " + a) 
 
-                    var inputF = document.getElementById("dataH"); 
+                    var inputF = document.getElementById("getDate"); 
   
                     function gfg_Run() { 
-                        inputF.setAttribute('value', 'defaultValue'); 
+                        inputF.setAttribute('value', a); 
                         el_down.innerHTML =  
                               "Value = " + "'" + a + "'"; 
                     }
