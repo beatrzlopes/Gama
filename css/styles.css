@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+}
+
+/* navbar */
+
+navbar {
+  background: #05384D;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+navbar>.logo>img {
+  height: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+navbar>.menu>ul {
+  list-style: none;
+  display: flex;
+  padding-right: 20px;
+}
+
+navbar>.menu li {
+  list-style: none;
+  padding: 10px;
+}
+
+navbar>.menu li>a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* header */
+
+.header {
+  height: 500px;
+  background-image: url("../img/279561-post-3000-x-estrategias-para-otimizar-o-processo-de-producao-na-sua-industria@2x.png");
+  background-size: 100%;
+  background-position: bottom left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+}
+
+.header>.content {
+  max-width: 300px;
+  padding: 30px;
+}
+
+.header>.content>button {
+  background: #E5E5E5;
+  padding: 10px 20px;
+  color: black;
+  font-weight: bold;
+}
+
+/* container */
+.container {
+  background: #F4F0EF;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.container .box {
+  border: 1px solid black;
+  max-width: 30%;
+  text-align: center;
+  background: white;
+  padding: 5px;
+}
+
+.container .box-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .box h2 {
+  color: #161616;
+}
+
+.container .box img {
+  max-width: 100%;
+}
+
+
+
+/* footer */
+footer {
+  padding: 20px;
+  background: #05384D;
+  color: white;
+  text-align: center;
+}
