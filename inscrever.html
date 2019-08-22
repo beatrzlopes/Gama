@@ -33,7 +33,7 @@
                 <input type="radio" name="tipo" value="b2c" checked> Para meu desenvolvimento pessoal <br>
                 <input type="radio" name="tipo" value="b2b"> Para agregar valor na minha empresa 
                 <br>
-               
+                <input type="hidden" name="data_hora" id="getDate" value=dataHora()>
                 <script> 
 
                     function dataHora(){
@@ -41,20 +41,10 @@
                       var d = Date();
                       id.value = d.toString()
                     }
-                    dataHora()
-                            
+                                                
                   </script> 
                   
                
-               <input type="hidden" name="data_hora" id="getDate" value=dataHora()>       
-               
-               
-                
-
-
-
-
-          
                 <input type="submit" value="Pronto! Enviar"> 
             </form>
           </div>
