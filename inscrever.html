@@ -26,12 +26,12 @@
         <p> 
           <div id="form"><form name="inscricao" method="POST" data-netlify="true" action="/pages/success"> 
                 <h2>Nome completo<br>
-                <input type ="text" name ="nomeCliente"><br>
+                <input type ="text" name ="nome"><br>
                 E-mail<br></h2>
-                <input type="text" name="emailCliente"> <br>
+                <input type="text" name="email"> <br>
                 <h3>Adorei o conteúdo desse site! Gostaria de receber mais informações:</h3>
-                <input type="radio" name="tipoCliente" value="b2c" checked> Para meu desenvolvimento pessoal <br>
-                <input type="radio" name="tipoCliente" value="b2b"> Para agregar valor na minha empresa 
+                <input type="radio" name="tipo" value="b2c" checked> Para meu desenvolvimento pessoal <br>
+                <input type="radio" name="tipo" value="b2b"> Para agregar valor na minha empresa 
                 <br>
                
                 <script> 
@@ -40,13 +40,12 @@
                     var id = document.getElementById('getDate');
                     var d = Date(); 
                     a = d.toString()  
-                    id.innerHTML =  
-                              "Value = " + "'" + a + "'"; 
+                    id.innerHTML =  (textObject.value = "Value = " + "'" + a + "'") 
                     }
                       
                   </script> 
                
-               <input type="hidden" name="dataCliente" id="getDate">       
+               <input type="hidden" name="data_hora" id="getDate">       
                
                
                 
@@ -55,7 +54,7 @@
 
 
           
-                <input type="submit" value="Pronto! Enviar" onclick="dataHora()"> 
+                <input type="submit" value="Pronto! Enviar"> 
             </form>
           </div>
         </p>
