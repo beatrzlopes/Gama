@@ -6,6 +6,15 @@
         <meta name="keywords" content="operacao, produtividade, inteligente, tecnologia, processos"/>
         <title>tecnologia e produtividade </title>
         <link rel="stylesheet"  type="text/css" href="css/styles.css">
+        <script> 
+
+            function dataHora(){
+              var id = document.getElementById('getDate');
+              var d = Date();
+              id.value = d.toString()
+            }
+                                        
+          </script> 
 
     </head>
 
@@ -34,15 +43,7 @@
                 <input type="radio" name="tipo" value="b2b"> Para agregar valor na minha empresa 
                 <br>
                 <input type="hidden" name="data_hora" id="getDate" value=dataHora()>
-                <script> 
 
-                    function dataHora(){
-                      var id = document.getElementById('getDate');
-                      var d = Date();
-                      id.value = d.toString()
-                    }
-                                                
-                  </script> 
                   
                
                 <input type="submit" value="Pronto! Enviar"> 
