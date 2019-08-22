@@ -50,8 +50,10 @@ navbar>.menu li>a {
 }
 
 .header>.content {
-  max-width: 300px;
-  padding: 30px;
+  max-width: 750px;
+  padding: 280px;
+  color: black;
+  text-align: center;
 }
 
 
